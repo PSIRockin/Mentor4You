@@ -132,6 +132,17 @@ footer{
     align-content: center;
 }
 
+#mentorList{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    justify-self: center;
+    flex-direction: column;
+    flex-wrap: nowrap;
+    align-items: center;
+}
+
 body {
     background-color: whitesmoke;
 }
@@ -333,17 +344,20 @@ body {
     margin: 0 0 40px;
   }
   
-  label {
+  ::-webkit-input-placeholder {
     position: absolute;
     -webkit-transform: translateY(6px);
             transform: translateY(6px);
     left: 13px;
+    bottom: 5px;
     color: rgba(255, 255, 255, 0.5);
     transition: all 0.25s ease;
     -webkit-backface-visibility: hidden;
     pointer-events: none;
+    font-family: 'Righteous', cursive;
     font-size: 22px;
   }
+
   label .req {
     margin: 2px;
     color: rgb(93, 152, 247);
