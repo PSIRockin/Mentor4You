@@ -245,7 +245,7 @@ body {
     z-index:100;
     color:#fff;
     cursor:pointer;
-    transition:background-position .3s;
+    trainsition:background-position .3s;
 }
 
 #main {	
