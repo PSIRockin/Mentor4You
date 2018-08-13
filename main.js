@@ -1,3 +1,0 @@
-function noUse(){
-    return false;
-}
