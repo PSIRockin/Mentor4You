@@ -2,11 +2,63 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=\, initial-scale=1.0">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <link rel="stylesheet" href="lib/css/style.css">
+    <script src="lib/js/main.js" defer></script>
+    <title>Mentor4You</title>
+    <link rel="shortcut icon" href="Demo Day/Tab Img.png"/>
+    <link href="https://fonts.googleapis.com/css?family=Do+Hyeon|Dosis:300|Jua|Righteous" rel="stylesheet">
+    
+<script src="https://www.gstatic.com/firebasejs/5.3.1/firebase.js"></script>
+<script>
+  // Initialize Firebase
+  var config = {
+    apiKey: "AIzaSyDJmGfKm6PKOVmg7Z1hPYl2wV3HcTbtzZk",
+    authDomain: "mentor4you-users.firebaseapp.com",
+    databaseURL: "https://mentor4you-users.firebaseio.com",
+    projectId: "mentor4you-users",
+    storageBucket: "",
+    messagingSenderId: "313716159899"
+  };
+  firebase.initializeApp(config);
+</script>
+
 </head>
 <body>
-    
-</body>
+    <!--<div id="NavBar">
+            <ul>                
+                <li><a>Home</a></li>                
+                <li><a>Search</a></li>
+                <li><a>My Mentors</a></li>
+                <li><a>Upgrade</a></li>
+            </ul>
+            -->
+    <!--Navbar-->
+    <div id="topNav" class="navigation">
+        <span id="closebtn" onclick="navToggle()">
+            <span class="line1"></span>
+            <span class="line2"></span>
+            <span class="line3"></span>
+        </span>
+      <div class="logo">
+        <img src=""/>
+      </div>
+      
+      <ul class="menulist">
+        <li><a class="menuitems" href="index.html">Home</a></li>		
+        <li><a class="menuitems" href="search.html">Search</a></li>				
+        <li><a class="menuitems" href="myMentors.html">My Mentors</a></li>
+        <li><a class="menuitems" href="signIn.html">Sign-In | Sign Up</a></li>
+      </ul>			
+      </div>
+      
+      <div id="main">
+      </div>   
+
+    <div id="mentorList">
+
+    </div>
+    <footer>Made by: Jonathon Negron & Christian St. Vil</footer>
+    </body>	    
 </html>
