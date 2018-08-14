@@ -274,6 +274,11 @@ body {
     box-sizing: border-box;
   }
   
+  label {
+    color: whitesmoke;
+    font-size: 14px;
+}
+
   signIn html {
     overflow-y: scroll;
   }
