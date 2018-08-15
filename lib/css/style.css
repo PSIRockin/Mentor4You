@@ -284,7 +284,6 @@ body {
   }
   
   body {
-    background-image: url("image.png");
     font-family: 'Righteous', cursive;
   }
   
@@ -453,8 +452,50 @@ body {
     text-align: right;
   }
   
+  #mentorList {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+}
 
+  .mentors {
+    margin: 20px;
+    height: 500px;
+    width: 400px;
+    border-radius: 15%;
+    background-color: rgb(115, 161, 235);
+    color: whitesmoke;
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: center;
+    align-content: center;
+    align-items: center;
+}
 
+.mentors img {
+    display: flex;
+    flex-wrap: nowrap;
+    border-radius: 30%;
+    width: 300px;
+    height: 300px;
+    margin: 5px;
+}
+
+.mentors h2 {
+    text-transform: capitalize;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    font-size: 36px;
+}
+
+.mentors p {
+    font-family: 'Dosis', sans-serif;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    font-size: 20px;
+}
 
 @media (max-width: 1085px){
     #about p{
