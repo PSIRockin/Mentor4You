@@ -492,7 +492,7 @@ body {
     }
 }
 
-.add {
+.addB {
     font-family: 'Righteous', cursive;
     font-size: 25px;
     margin: 5px;
@@ -504,7 +504,7 @@ body {
     color: #ffffff;
     transition: all 0.5s ease;
   }
-  .add:hover{
+  .addB:hover{
     background: rgb(10, 86, 207);
   }
 
