@@ -456,9 +456,10 @@ body {
     width: 280px;
     height: 280px;
     margin: 5px;
+    margin-top: 0;
 }
 
-.mentors h2 {
+.mentors h3 {
     text-transform: capitalize;
     display: flex;
     flex-wrap: nowrap;
@@ -472,6 +473,20 @@ body {
     flex-wrap: nowrap;
     text-align: center;
     font-size: 20px;
+    margin-bottom: 0;
+}
+
+.mentors a {
+    font-family: 'Dosis', sans-serif;
+    color: white;
+    font-weight:bold;
+    display: flex;
+    flex-wrap: nowrap;
+    text-align: center;
+    font-size: 26px;
+    border-bottom-style: solid;
+    border-bottom-color: white;
+    margin-bottom: 20px;
 }
 
 @media (max-width: 1085px){
