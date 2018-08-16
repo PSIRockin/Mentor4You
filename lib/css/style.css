@@ -238,7 +238,6 @@ body {
     font-size:30px;
 }
 
-
 /* <SIGN UP> */
 *, *:before, *:after {
     box-sizing: border-box;
@@ -429,6 +428,26 @@ body {
     justify-self: center;
 }
 
+#myMentorList {
+    display: flex;
+    flex-flow: row wrap;
+    align-content: center;
+    justify-self: center;
+}
+
+#myMentorList{
+    width: 100%;
+    display: flex;
+    margin-top: 100px;
+    margin-bottom: 50px;
+    justify-self: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    align-items: center;
+    display: flex;
+    align-content: center;
+}
+
   .mentors {
     margin: 20px;
     height: auto;
@@ -441,6 +460,10 @@ body {
     justify-content: center;
     align-content: center;
     align-items: center;
+}
+
+#title{
+    width: 100%;
 }
 
 #title h1{
@@ -487,6 +510,15 @@ body {
     border-bottom-style: solid;
     border-bottom-color: white;
     margin-bottom: 20px;
+}
+
+#smaller{
+    font-size: 40px;
+}
+
+#smaller2{
+    font-size: 20px;
+    margin-left: 50px;
 }
 
 @media (max-width: 1085px){
@@ -566,3 +598,6 @@ body {
 }
 
 
+#wwd{
+    font-size: 20px;
+}
